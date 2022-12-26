@@ -40,10 +40,6 @@
 .box>.menu>li:last-child{
     width: 80px;
 }
-/* .box>.menu>li:active{
-    background: #0682e7;
-    color: #fff;
-} */
 .box>.menu>li>a[disabled="true"]{
     color: #aaa;
 }
