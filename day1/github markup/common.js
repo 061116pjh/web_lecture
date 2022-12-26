@@ -17,9 +17,7 @@ $nums.forEach(e => {
 $next.addEventListener('click', function(){
     if(num<7){
         num++;
-        active.classList.remove('active');
-        $nums[num].classList.add('active');
-        active = $nums[num];
+        classList();
         pre = false;
         $previous.setAttribute('disabled', pre)
     }
@@ -32,9 +30,7 @@ $next.addEventListener('click', function(){
 $previous.addEventListener('click', function(){
     if(num >= 0){
         num--;
-        active.classList.remove('active');
-        $nums[num].classList.add('active');
-        active = $nums[num];
+        classList();
         next = false;
         $next.setAttribute('disabled', next);
     }
@@ -43,3 +39,9 @@ $previous.addEventListener('click', function(){
         $previous.setAttribute('disabled', pre);
     }
 })
+function classList(){
+    active.classList.remove('active');
+    $nums[num].classList.add('active');
+    active = $nums[num];
+    
+}
