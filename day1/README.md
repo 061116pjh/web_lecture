@@ -108,8 +108,3 @@ script: 내부 js (body 태그 마지막에 위치 => DOM객체 불러온 후 js
 위의 4개 태그에 넣지 못하는 내용을 넣음
 name = "종류"
 content = "내용"
-
-**_ 선생님 추천 _**
-class => css
-id => javascript
-나누어서 사용한다
