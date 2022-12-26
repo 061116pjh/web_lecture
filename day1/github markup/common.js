@@ -25,7 +25,6 @@ $next.addEventListener('click', function(){
         next = true;
         $next.setAttribute('disabled', next);
     }
-    console.log(num)
 })
 $previous.addEventListener('click', function(){
     if(num >= 0){
