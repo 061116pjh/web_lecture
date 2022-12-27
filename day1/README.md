@@ -1,4 +1,4 @@
-# Day 1
+## Day 1
 
 # WEB
 
@@ -32,10 +32,10 @@ link => X link는 다른 파일을 연결할 때 쓰는 태그 <br>
 a => O 다른 위치로 이동할 때 `<a heref="">`
 
 href => hypertext reference <br>
-웹 url / 상대 경로 `<a href="주소"> </a>` <br>
-페이지 내 이동 `<a href="#id"> </a>` <br>
-메일 쓰기 `<a href="mailto:메일주소"> </a>` <br>
-전화 걸기 `<a href="tel:전화번호"> </a>` (주로 모바일 환경에서 사용)
+웹 url / 상대 경로 => `<a href="주소"> </a>` <br>
+페이지 내 이동 => `<a href="#id"> </a>` <br>
+메일 쓰기 => `<a href="mailto:메일주소"> </a>` <br>
+전화 걸기 => `<a href="tel:전화번호"> </a>` (주로 모바일 환경에서 사용)
 
 # LIST (리스트)
 
@@ -59,7 +59,7 @@ ol, ul 자식 요소는 무조건 li로 와야한다 <br>
 
 # FORM
 
-form: 사용자로부터 input 을 받기 위한 태그 `<form action="" method="">` <br>
+form: 사용자로부터 input 을 받기 위한 태그 => `<form action="" method="">` <br>
 action="API주소" (서버쪽 url) <br>
 method="GET | POST"
 
