@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+*{
+  padding: 0;
+  color: inherit;
+}
+ul, li{
+  list-style: none;
+}
+ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+ul>li{
+  float: left;
+  background: #fff;
+  border-bottom: solid 1px #ddd;
+}
+ul>li>a{
+  padding: 15px 30px;
+  display: block;
+}
+.active{
+  color: #0081d6;
+  font-weight: bold;
+  border-bottom: solid 2px #0081d6;
+}
