@@ -4,8 +4,13 @@
 
 # Day1
 
-class => css
-id => javascript
+class => css <br>
+id => javascript <br>
 나누어서 사용한다
 
 # Day 2
+
+float => flex로 대체! <br>
+position = float : 같은 문제 발생
+
+# Day 3
