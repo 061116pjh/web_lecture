@@ -14,3 +14,7 @@ float => flex로 대체! <br>
 position = float : 같은 문제 발생
 
 # Day 3
+
+# Day 4
+
+**_ 병결 _**
